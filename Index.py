@@ -103,7 +103,7 @@ while (inicio == 's'):
 
 print("Gracias")
 
-file = open("EjercicioNomina.txt", "w")
+file = open("EjercicioNomina.txt", "a")
 file.write('\n')
 file.write('nomina=%s'%nomina)
 
